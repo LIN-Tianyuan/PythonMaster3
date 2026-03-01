@@ -23,10 +23,10 @@ class Student:
         return self.age == other.age and self.name == other.name
     # 成员方法（主动触发）
 
-"""
+
 student = Student("Alex", 18)
 print(student)
-"""
+
 
 student1 = Student("Alex", 18)
 student2 = Student("Luna", 20)
