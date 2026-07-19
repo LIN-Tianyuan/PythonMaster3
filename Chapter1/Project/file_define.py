@@ -22,7 +22,7 @@ class TextFileReader(FileReader):
             # 把每行文本通过逗号分隔转换成列表，得到date, order_id, money, province
             data_list = line.split(",")
             # 创造record对象
-            record = Record(data_list[0], data_list[1], data_list[2], data_list[3])
+            record = Record(data_list[0], data_list[1], int(data_list[2]), data_list[3])
             record_list.append(record)
 
         f.close()

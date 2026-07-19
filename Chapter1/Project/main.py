@@ -1,4 +1,4 @@
-"""
+
 from pyecharts.options import InitOpts, LabelOpts, TitleOpts
 
 from file_define import TextFileReader, JsonFileReader
@@ -33,8 +33,9 @@ bar.set_global_opts(
     title_opts=TitleOpts(title="Daily Sales")
 )
 bar.render("Daily sales bar chart.html")
-"""
 
+
+"""
 from pyecharts.charts import Bar
 from pyecharts.globals import ThemeType
 from pyecharts.options import (
@@ -111,3 +112,4 @@ bar.set_global_opts(
 )
 
 bar.render("Daily_sales_bar_chart.html")
+"""
